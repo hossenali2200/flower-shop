@@ -27,12 +27,101 @@
     border-radius: 6px;
 }
 
+.head-1 button:hover{
+    background-color: brown;
+    font-weight: bold;
+    transition:   4s ease-out;
+    padding: 20px;
+}
+
 .head-2 img{
     margin-top: 150px;
     margin-right: 200px;
     width: 435px;
     height: 500px;
 }
+
+.head-2 img:hover{
+    width: 335px;
+    
+    display: block;
+}
+
+.main{
+    width: 1440px;
+    margin: 0 auto;
+}
+
+
+
+.feature{
+    text-align: center;
+}
+
+.photo{
+    
+    display: flex;
+     
+    gap: 8px;
+    text-align: center;
+    margin-left: 200px;
+}
+
+.photo div{
+    border: 2px solid royalblue;
+     display: inline;
+     border-top-left-radius: 190px;
+     border-top-right-radius: 190px;
+     width: 350px;
+     height: 400px;
+     
+}
+
+.ph-1{
+    background-color: rgba(167, 33, 98, 0.15);
+     
+    text-align: center;
+    margin-top: 10px;
+}
+
+.ph-1 img{
+    margin-top: 100px;
+    height: 300px;
+}
+.ph-2{
+    background-color: rgba(5, 151, 160, 0.15);
+     
+    text-align: center;
+    margin-top: 10px;
+}
+
+.ph-2 img{
+    margin-top: 100px;
+    height: 300px;
+}
+.ph-3{
+    background-color: rgba(71, 125, 17, 0.15);
+     
+    text-align: center;
+    margin-top: 10px;
+}
+
+.ph-3 img{
+    margin-top: 100px;
+    height: 300px;
+}
+
+
+
+/* .photo img{
+    border: 2px solid royalblue;
+     display: inline;
+     border-top-left-radius: 190px;
+     border-top-right-radius: 190px;
+     padding-top: 8px;
+     height: 100%;
+      
+} */
 
 @media screen and (max-width: 576px) {
     .header{
@@ -47,6 +136,22 @@
         width: 235px;
         height: 300px;
         margin-left: 100px;
+        margin-top: 20px;
         
+    }
+    .photo{
+    
+        width: 100%;
+        flex-direction: column  ;
+        height: auto;
+        margin: 0 auto;
+        margin-left: 50px;
+         
+    }
+    .feature{
+        text-align: left;
+        margin: 0 auto;
+        width: 100%;
+         
     }
 }
