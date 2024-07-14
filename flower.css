@@ -18,8 +18,8 @@
     margin-bottom: 10px;
 }
 
-.head-1 button{
-    background-color: red;
+  button{
+    background-color: rgb(229, 84, 115);
     color: white;
     padding: 14px;
     border: none;
@@ -27,7 +27,7 @@
     border-radius: 6px;
 }
 
-.head-1 button:hover{
+  button:hover{
     background-color: brown;
     font-weight: bold;
     transition:   4s ease-out;
@@ -118,6 +118,9 @@
     justify-content: space-around;
     background-color: rgba(39, 39, 39, 0.05);
     margin-top: 50px;
+    width: 1080px;
+    margin-left: 200px;
+    margin-bottom: 30px;
 }
 
 .support div{
@@ -127,6 +130,106 @@
 .support img {
     max-width: 100%;
   }
+
+  .sign{
+    display: grid;
+     
+     grid-template-columns: repeat(2, 1fr);
+    background-color: rgba(229, 84, 115, 0.05);
+    height: 420px;
+     
+  }
+
+  .sign-content{
+    margin-top: 100px;
+    text-align: center;
+  }
+
+  .sign-img{
+    padding: 80px;
+    
+  }
+
+  .sign-img img{
+    height: 300px;
+     
+    
+  }
+  .instagram{
+    margin-bottom: 70px;
+  }
+   
+
+  .instagram-content{
+    max-width: 594px;
+    height: 132px;
+    margin: 0 auto;
+    text-align: center;
+  }
+
+  .instagram-content h2{
+    font-weight: 800;
+    font-size: 2.5rem;
+  }
+
+  .instagram-content p{
+    color: rgba(39, 39, 39, 0.6);
+  }
+
+  .instagram-img{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+  }
+
+  .banner{
+    background-image: url('./Flower Asset/Rectangle\ 9.png');
+     height: 350px;
+    
+     width: 1000px;
+     margin: 0 auto;
+  }
+
+  .banner > div{
+    max-width: 865px;
+    margin: 0 auto;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+     padding: 100px;
+  }
+
+  .banner > div input{
+    padding: 10px;
+    width: 600px;
+  }
+
+  .banner > div button{
+    padding: 14px;
+    width: 100px;
+    height: 40px;
+    font-size: 14px;
+    font-weight: 300;
+  }
+
+  footer{
+    background-color: black;
+    text-align: center;
+    color: white;
+    height: 150px;
+    margin-top: 60px;
+    padding: 60px;
+  }
+
+    span{
+    color: #E55473;
+  }
+
+  footer h2{
+    font-weight: 800;
+    font-size: 30px;
+  }
+
+  
 
 
 
@@ -183,6 +286,25 @@
     .fet{
         width: 25%;
         text-align: center;
+        margin-left: 50px;
     }
+
+ 
+
+    .sign-img img{
+        text-align: center;
+        margin-left: 50px;
+        width: 100%;
+    }
+    
+    
+    .instagram-img{
+        grid-template-columns: repeat(1, 1fr);
+        margin-left: 40px;
+        gap: 10px;
+    }
+
+
+    
      
 }
